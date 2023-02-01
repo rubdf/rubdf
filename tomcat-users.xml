@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tomcat-users>
+
+<role rolename="probeuser"/>
+‹role rolename="poweruser" ⁄›
+<role rolename="poweruserplus"/>
+<role rolename="admin-gui"/>
+<role rolename="admin-script"/>
+<role rolename="manager-status"/>
+<role rolename="manager-script"/>
+<role rolename="manager-gui"/>
+
+<user username="admin" password="tomcat2022" roles="admin-script,admin-gui,manager-script,manager-gui,manager-status" />
+
+</tomcat-users>
